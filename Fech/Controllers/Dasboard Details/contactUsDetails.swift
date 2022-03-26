@@ -1,14 +1,16 @@
 //
-//  PasswordRestWithTokenViewController.swift
+//  contactUsDetails.swift
 //  Fech
 //
-//  Created by MAC on 28/02/2022.
+//  Created by MAC on 03/03/2022.
 //  Copyright © 2022 MAC. All rights reserved.
 //
 
 import UIKit
 
-class PasswordRestWithTokenViewController: UIViewController {
+class contactUsDetails: UIViewController {
+
+    @IBOutlet var unwindContact: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()

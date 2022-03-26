@@ -1,14 +1,16 @@
 //
-//  ForgetPasswordViewController.swift
+//  paymentHistoryDetails.swift
 //  Fech
 //
-//  Created by MAC on 28/02/2022.
+//  Created by MAC on 03/03/2022.
 //  Copyright © 2022 MAC. All rights reserved.
 //
 
 import UIKit
 
-class PasswordResetWithoutTokenViewController: UIViewController {
+class paymentHistoryDetails: UIViewController {
+
+    @IBOutlet var unwindPayment: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()

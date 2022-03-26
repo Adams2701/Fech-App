@@ -19,16 +19,6 @@ class OnboardingViewController: UIViewController {
     
     var currentPage = 0
     
-//    var currentPage = 0 {
-//           didSet {
-//               pageControl.currentPage = currentPage
-//               if currentPage == slides.count - 1 {
-//                   nextBtn.setTitle("Get Started", for: .normal)
-//               } else {
-//                   nextBtn.setTitle("Next", for: .normal)
-//               }
-//           }
-//       }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +29,7 @@ class OnboardingViewController: UIViewController {
                 OnboardingSlide(title: "Assured Success", description: "Success all in with our dumps.", image: #imageLiteral(resourceName: "fech_logo-3"))
             ]
             
-//            pageControl.numberOfPages = slides.count
+            pageControl.numberOfPages = slides.count
         
         OnboadingCollectionView.delegate = self
         OnboadingCollectionView.dataSource = self

@@ -1,14 +1,16 @@
 //
-//  RegisterViewController.swift
+//  selectedCategoryDetails.swift
 //  Fech
 //
-//  Created by MAC on 28/02/2022.
+//  Created by MAC on 03/03/2022.
 //  Copyright © 2022 MAC. All rights reserved.
 //
 
 import UIKit
 
-class RegisterViewController: UIViewController {
+class selectedCategoryDetails: UIViewController {
+
+    @IBOutlet var unwindSelectCat: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
